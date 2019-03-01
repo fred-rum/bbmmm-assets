@@ -1,0 +1,7 @@
+<CombineXMesh Type="Overlay">
+        <Material
+		DiffuseMap="models/_cube.png"
+		DiffuseMultiplier="g(255;255;255) x 0.25"
+		TwoSided="true"
+        />
+</CombineXMesh>

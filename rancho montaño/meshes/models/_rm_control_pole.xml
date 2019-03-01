@@ -1,0 +1,5 @@
+<CombineXMesh Type="Model">
+	<Material
+		DiffuseMultiplier="g(255;255;128) x 0.35"
+	/>
+</CombineXMesh>

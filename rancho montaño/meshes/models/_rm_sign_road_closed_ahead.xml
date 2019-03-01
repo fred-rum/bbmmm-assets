@@ -1,0 +1,11 @@
+<CombineXMesh Type="Model">
+        <Material
+		DiffuseMap="models/_rm_road_signs__d_a.png"
+		AlphaKill="true"
+        />
+        <Material
+		MeshParts="VIS_post"
+		DiffuseMap="models/_rm_road_signs__d_a.png"
+		TwoSided="true"
+        />
+</CombineXMesh>

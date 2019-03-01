@@ -1,0 +1,20 @@
+<CombineXMesh Type="Model">
+	<Material
+		MeshParts="VIS_plate,VIS_ramp_pos,VIS_ramp_neg"
+		DiffuseMultiplier="g(255;255;255) x 1"
+		DiffuseMap="models/_rm_asphalt_road_half__d.png"
+	/>
+	<Material
+		MeshParts="VIS_post_right"
+		DiffuseMultiplier="g(255;255;128) x 0.35"
+	/>
+	<Material
+		MeshParts="VIS_gate"
+		DiffuseMultiplier="g(255;60;60) x 0.5"
+	/>
+	<Material
+		MeshParts="VIS_extension, VIS_pivot"
+		DiffuseMultiplier="(0;0;0;0)"
+		AlphaKill="true"
+	/>
+</CombineXMesh>

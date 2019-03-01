@@ -1,0 +1,29 @@
+<ModelBrand>
+	<Occlusion Size="(0; 0)" Texture="occlusion_cube__s_d_a.dds" Intensity="1.0"/>
+	<PhysicsModel>
+		<Body
+			ModelFrame="red"
+			Collisions="Dynamic"
+			Mass="0"
+		>
+			<Body
+				ModelFrame="blue"
+				Collisions="Dynamic"
+				Mass="200"
+				CenterOfMassOffset="(0; 0; 0)"
+				AngularDamping="0.0"
+				LinearDamping="0.0"
+				Friction="1"
+			>
+				<Constraint
+					Type="Prismatic"
+					AxisLocal="(0;1;0)"
+					MinLimit="-3"
+					MaxLimit="3"
+				>
+					<Motor Type="Spring" Spring="20000" Damping="2828"/>
+				</Constraint>
+			</Body>
+		</Body>
+	</PhysicsModel>
+</ModelBrand>

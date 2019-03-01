@@ -1,0 +1,6 @@
+<CombineXMesh Type="Model">
+	<Material
+		DiffuseMap="models/_rm_barrel__d.png"
+		NormalMap="models/_rm_barrel__n_d.png"
+	/>
+</CombineXMesh>

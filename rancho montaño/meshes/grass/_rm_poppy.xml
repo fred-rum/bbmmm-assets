@@ -1,0 +1,8 @@
+<CombineXMesh Type="Grass">
+	<PlantMesh WindAnimation="true"/>
+	<Material
+		DiffuseMap="grass/_rm_poppy__d_a.png"
+		AlphaKill="true"
+		TwoSided="true"
+	/>
+</CombineXMesh>

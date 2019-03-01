@@ -1,0 +1,7 @@
+<ModelBrand NoLandmark="true">
+	<PhysicsModel>
+		<Body
+			Collisions="Dynamic"
+		/>
+	</PhysicsModel>
+</ModelBrand>

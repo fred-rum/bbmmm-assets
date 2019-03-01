@@ -1,0 +1,76 @@
+<_templates Include="plants" />
+<PlantBrand
+	BreakType="SmallTree"
+	PlantingGroups="BigTree"
+	PlantingMinSpacing="3.0"
+	DeleteOnBreak="false"
+	AttachToGround="true"
+	DisableShadows="true"
+	CheckNoGrass="false"
+	UseDirtTint="true"
+>
+	<ChunksBreak
+		Brands="_plane_tree"
+		Handler="Pumpkin"
+		Offsets="(-0.5; 0.0; 0),(0.0; 0.0; 0.5),(-0.5; 0.0; 0.5)"
+		SpawnAngMult="15"
+		SpawnLinMult="1"
+		SpawnAtEachBody="true"
+		Threshold="0"
+	/>
+	<Landmark Color="g(255; 255; 255)" Size="3" Texture="landmark_color.tga"/>
+	<PhysicsModel>
+		<!--Constraint
+			ModelFrameParent="foliage"
+			ModelFrameChild="trunk"
+			Type="Fixed"
+			BreakOffThreshold="5"
+		/-->
+		<Body
+			ModelFrame="trunk"
+			Mass="0"
+			GravityFactor="1"
+			Collisions="None"
+		>
+			<!--Constraint
+				Cone="90"
+				TwistAxisLocal="(0;0;1)"
+				PlaneAxisLocal="(0;1;0)"
+				TwistMin="0"
+				TwistMax="0"
+				Type="Ragdoll"
+				BreakOffThreshold="5"
+			>
+				<AllMotor Damping="20" Spring="100" Type="Spring" />
+			</Constraint-->
+			<Body
+				ModelFrame="foliage"
+				ImpactType="Foliage"
+				DebrisType="Foliage"
+				IsCapsuleCDT="false"
+				CenterOfMassOffset="(0; 0; 0)"
+				AllowedPenetrationDepth="2"
+				AngularDamping="0.5"
+				LinearDamping="0.5"
+				Mass="100"
+				GravityFactor="1"
+				Collisions="Dynamic"
+			>
+				<Constraint
+					Type="Ragdoll"
+					TwistAxisLocal="(0;0;1)"
+					PlaneAxisLocal="(0;1;0)"
+					Cone="60"
+					PlaneMin="-45"
+					PlaneMax="45"
+					TwistMin="-20"
+					TwistMax="20">
+					<AllMotor Type="Spring" Damping="200" Spring="2000" />
+				</Constraint>
+			</Body>
+		</Body>
+	</PhysicsModel>
+	<GameData>
+		<WinchSocket ParentFrame="foliage" />
+	</GameData>
+</PlantBrand>

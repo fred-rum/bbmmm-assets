@@ -1,0 +1,68 @@
+<_templates Include="plants" />
+<PlantBrand
+	PlantingGroups="SmallTree,Bush"
+	PlantingMinSpacing="4.0"
+	DeleteOnBreak="false"
+	AttachToGround="true"
+	DisableShadows="true"
+	BreakType="SmallTree"
+>
+	<ChunksBreak
+		Threshold="50"
+		Handler="Bush"
+		Brands="bush_chunk_a"
+		Offsets="(-0.2; 0.5; 0),(-0.1; 0.5; -0.15),(-0.1; 0.5; 0.15),(0.2; 0.5; 0),(0.1; 0.5; -0.15),(0.1; 0.5; 0.15),"
+		SpawnAngMult="5"
+		SpawnLinMult="1.5"
+	/>
+	<Landmark Color="g(80; 100; 50) x 2" Size="5" Texture="landmark_tree.tga"/>
+	<PhysicsModel>
+				<!--Constraint
+					ModelFrameParent="root"
+					ModelFrameChild="hedge"
+					Type="Ragdoll"
+					PivotOffset="(2;0;-3)"
+					TwistAxisLocal="(0;0;1)"
+					PlaneAxisLocal="(0;1;0)"
+					Cone="5"
+					TwistMin="0"
+					TwistMax="0"
+				>
+					<AllMotor Type="Spring" Damping="4000" Spring="1500000" />
+				</Constraint-->
+		<Body
+			ModelFrame="root"
+			Mass="0"
+			Collisions="None"
+		>
+			<Body
+				ModelFrame="hedge"
+				CenterOfMassOffset="(0; 0; 0)"
+				Mass="1000"
+				Friction="1.5"
+				LinearDamping="1"
+				AngularDamping="1"
+				IsCapsuleCDT="false"
+				ImpactType="Foliage"
+				DebrisType="Foliage"
+				Collisions="Dynamic"
+			>
+				<Constraint
+					Type="Ragdoll"
+					PivotOffset="(0;0;-3)"
+					TwistAxisLocal="(0;0;1)"
+					PlaneAxisLocal="(0;1;0)"
+					Cone="1"
+					TwistMin="0"
+					TwistMax="0"
+				>
+					<AllMotor Type="Spring" Damping="120000" Spring="3000000" />
+				</Constraint>
+			</Body>
+		</Body>
+	</PhysicsModel>
+	<Occlusion Intensity="0.7" Size="(1.2; 4.0)" />
+	<GameData>
+		<WinchSocket ParentFrame="foliage" Pos="(0; 0.2; 0)" />
+	</GameData>
+</PlantBrand>

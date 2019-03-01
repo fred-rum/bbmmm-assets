@@ -1,0 +1,7 @@
+<OverlayBrand NoVeryFar="false" TintExtrude="false" GenerateDust="false" WheelTracks="0">
+	<Prebuild
+		LandmarkColor="(100; 100; 100) x 0.5"
+		LandmarkPart="0.3"
+		OverlayType="GeometricConform"
+	/>
+</OverlayBrand>

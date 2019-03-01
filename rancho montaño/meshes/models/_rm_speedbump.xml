@@ -1,0 +1,8 @@
+<CombineXMesh Type="Model">
+	<Material
+		DiffuseMap="models/_rm_speedbump__d.png"
+		NormalMap="models/_rm_speedbump__n_d.png"
+	>
+		<ModelMaterial IsWheelTracks="true" />
+	</Material>
+</CombineXMesh>

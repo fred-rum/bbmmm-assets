@@ -1,0 +1,13 @@
+<ModelBrand NoLandmark="true" ApplyNormalInReference="true">
+	<PhysicsModel>
+		<Body
+			ModelFrame="box"
+			Collisions="Dynamic"
+			Mass="0"
+			Friction="0"
+			CenterOfMassOffset="(0; 0; 0)"
+ NoSoftContacts="true" NoSoftImpulse="true" IsGameAsphalt="true"
+		/>
+	</PhysicsModel>
+	<Occlusion Intensity="1" Size="(1; 1)" Texture="occlusion.tga" />
+</ModelBrand>

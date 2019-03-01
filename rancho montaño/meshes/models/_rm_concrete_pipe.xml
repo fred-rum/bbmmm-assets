@@ -1,0 +1,5 @@
+<CombineXMesh Type="Model">
+	<Material
+		DiffuseMap="models/_rm_concrete_pipe__d.png"
+	/>
+</CombineXMesh>

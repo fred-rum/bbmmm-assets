@@ -1,0 +1,23 @@
+<CombineXMesh Type="Plant">
+	<PlantMesh
+		OcclusionIntensity="1"
+		OcclusionRadius="2"
+		WindAnimation="false"
+	/>
+	<Material
+		MeshParts="plant 1"
+		DiffuseMap="plants/_rm_hedge_side__d_a.png"
+		DiffuseMultiplier="(255;255;255) x 0.15"
+		AlphaKill="true"
+		TwoSided="true"
+	>
+		<PlantMaterial IsFoliage="true" IsNearClip="false" />
+	</Material>
+	<Material
+		MeshParts="plant 0"
+		DiffuseMap="plants/_rm_hedge_top__d.png"
+		DiffuseMultiplier="(255;255;255) x 0.15"
+	>
+		<PlantMaterial IsFoliage="true" IsNearClip="false" />
+	</Material>
+</CombineXMesh>

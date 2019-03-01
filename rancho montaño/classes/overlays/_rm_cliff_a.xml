@@ -1,0 +1,7 @@
+<OverlayBrand GenerateDust="true">
+	<Prebuild
+		LandmarkColor="(255; 255; 255) x 0.0"
+		LandmarkPart="1.0"
+		OverlayType="GeometricConform"
+	/>
+</OverlayBrand>

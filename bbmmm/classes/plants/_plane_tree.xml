@@ -1,0 +1,21 @@
+<PlantBrand
+	BreakType="BigTree"
+	CheckNoGrass="true"
+	PlantingGroups="BigTree"
+	PlantingMinSpacing="6.0"
+	UseDirtTint="false"
+	DistSkipPercentage="0.5"
+	AttachToGround="false"
+>
+	<PhysicsModel>
+		<Body
+			ModelFrame="trunk"
+			Mass="100"
+		>
+		</Body>
+	</PhysicsModel>
+	<GameData>
+		<WinchSocket Pos="(0; 0.948; -0.039)" ParentFrame="trunk" />
+	</GameData>
+	<Landmark Color="(80; 100; 50)" Size="6" Texture="landmark_tree.tga" />
+</PlantBrand>

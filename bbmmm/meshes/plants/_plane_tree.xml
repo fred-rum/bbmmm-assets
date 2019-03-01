@@ -1,0 +1,15 @@
+<CombineXMesh Type="Plant">
+	<PlantMesh
+		OcclusionIntensity="10"
+		OcclusionRadius="1"
+	/>
+	<Material
+		DiffuseMap="plants/_plane_tree.png"
+		TwoSided="true"
+		AlphaKill="true"
+		BacksideLighting="0"
+
+	>
+		<PlantMaterial IsFoliage="true" />
+	</Material>
+</CombineXMesh>

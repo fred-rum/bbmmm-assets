@@ -1,0 +1,35 @@
+<ModelBrand _noinherit="true" NoLandmark="true" DynamicModel="true" BlockpostPosXZ="(-3.632; -4.228)">
+	<PhysicsModel>
+                <Flare
+			Color="(255;0;5)"
+			Size="1"
+			Pos="(2; 0; 0)"
+			Dir="(0; -1; 0)"
+			DirAngle="0"
+			SizeMultAtDay="0.5"
+			ColorMultAtDay="0.5"
+		/>
+		<Body
+			Collisions="Dynamic"
+			Mass="20"
+			GravityFactor="1"
+			Friction="1"
+		>
+			<Constraint
+				Type="Fixed"
+				BreakOffThreshold="10"
+			/>
+		</Body>
+	</PhysicsModel>
+        <StaticLights>
+                <StaticLight
+			Color="g(255;255;255)"
+			AttenEnd="10"
+			Pos="(2; 0; 0)"
+			Dir="(1; 0; 0)"
+			OuterCone="60"
+			InnerCone="0"
+		/>
+        </StaticLights>
+	<Occlusion Intensity="1" Size="(2; 2)" Texture="occlusion.tga" />
+</ModelBrand>

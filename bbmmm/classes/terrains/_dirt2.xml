@@ -1,0 +1,8 @@
+<MaterialType
+    NoGrass="true"
+	GenerateDust="true"
+	GrassBrush="DebrisStonesSparse"
+	Texture="tiles/tblr__d_a.tga"
+    IsExtrudable="false"
+	WheelTracks="0"
+/>

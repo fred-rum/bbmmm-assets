@@ -1,0 +1,8 @@
+<CombineXMesh Type="Model">
+        <Material
+		MeshParts="VIS_pillar"
+		DiffuseMap="overlays/_rm_stone_wall_overlay__d.png"
+		DiffuseMultiplier="g(255;255;255) x 0.75"
+		BacksideLighting="0.37"
+        />
+</CombineXMesh>

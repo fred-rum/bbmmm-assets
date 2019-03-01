@@ -1,0 +1,11 @@
+<_templates Include="models1"/>
+<CombineXMesh Type="Model">
+	<Material
+		DiffuseMap="models/_cube.png"
+		DiffuseMultiplier="(255;255;255) x 0.25"
+		AlphaKill="true"
+		BacksideLighting="1"
+	>
+		<ModelMaterial NoOcclusion="true" IsWheelTracks="true" />
+	</Material>
+</CombineXMesh>

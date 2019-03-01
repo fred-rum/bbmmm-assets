@@ -1,0 +1,12 @@
+<CombineXMesh Type="Overlay">
+        <Material
+		MeshParts="overlay"
+		DiffuseMap="models/_rm_road_signs__d_a.png"
+        />
+        <Material
+		MeshParts="far"
+		DiffuseMultiplier="g(255;255;255) x 0.3"
+		TwoSided="true"
+		BacksideLighting="0.3"
+        />
+</CombineXMesh>

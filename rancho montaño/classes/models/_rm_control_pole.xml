@@ -1,0 +1,11 @@
+<ModelBrand>
+	<PhysicsModel>
+		<Body
+			ModelFrame="top"
+			Collisions="Dynamic"
+			Mass="0"
+			NoSoftContacts="true"
+			NoSoftImpulse="true"
+		/>
+	</PhysicsModel>
+</ModelBrand>

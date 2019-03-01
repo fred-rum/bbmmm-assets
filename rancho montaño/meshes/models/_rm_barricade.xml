@@ -1,0 +1,14 @@
+<CombineXMesh Type="Model">
+	<Material
+		DiffuseMultiplier="g(255;255;255) x 0.3"
+	/>
+	<Material
+		MeshParts="upper,upper_001"
+		DiffuseMap="models/_rm_road_signs__d_a.png"
+	/>
+	<Material
+		MeshParts="chains"
+		DiffuseMultiplier="g(255;255;255) x 0.1"
+		TwoSided="true"
+	/>
+</CombineXMesh>

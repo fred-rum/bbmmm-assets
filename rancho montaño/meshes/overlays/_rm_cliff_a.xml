@@ -1,0 +1,7 @@
+<CombineXMesh Type="Overlay">
+        <Material
+                MeshParts="overlay"
+                DiffuseMap="overlays/_rm_cliff_a__d.png"
+		BacksideLighting="0.7"
+        />
+</CombineXMesh>

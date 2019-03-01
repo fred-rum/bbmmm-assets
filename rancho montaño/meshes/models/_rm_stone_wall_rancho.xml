@@ -1,0 +1,14 @@
+<CombineXMesh Type="Model" File="_rm_stone_wall">
+        <Material
+		MeshParts="VIS_wall"
+		DiffuseMap="overlays/_rm_stone_wall_overlay__d.png"
+		DiffuseMultiplier="g(255;255;255) x 0.75"
+		BacksideLighting="0.35"
+        />
+        <Material
+		MeshParts="VIS_sign"
+		DiffuseMap="models/_rm_rancho_sign__d_a.png"
+		DiffuseMultiplier="g(255;255;255) x 1.2"
+		AlphaKill="true"
+        />
+</CombineXMesh>

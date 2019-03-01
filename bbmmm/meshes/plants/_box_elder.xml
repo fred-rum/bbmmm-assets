@@ -1,0 +1,22 @@
+<CombineXMesh Type="Plant">
+	<PlantMesh
+		OcclusionIntensity="1"
+		OcclusionRadius="1"
+		WindAnimation="false"
+	/>
+	<Material
+		MeshParts="plant 0"
+		DiffuseMap="models/_cube.png"
+		DiffuseMultiplier="g(100;90;80) x 0.4"
+	>
+		<PlantMaterial IsFoliage="false" NoOcclusion="true" IsWheelTracks="true" />
+	</Material>
+	<Material
+		MeshParts="plant 1"
+		DiffuseMap="models/_cube.png"
+		IllumMap="plants/_cube_illum.png"
+		DiffuseMultiplier="g(0;255;0) x 0.3"
+	>
+		<PlantMaterial IsFoliage="true" NoOcclusion="true" IsWheelTracks="true" />
+	</Material>
+</CombineXMesh>

@@ -1,0 +1,17 @@
+<CombineXMesh Type="Model" File="_cubes2">
+	<Material
+		MeshParts="VIS_red"
+		DiffuseMap="models/_cube.png"
+		DiffuseMultiplier="g(255;150;150)"
+	/>
+	<Material
+		MeshParts="VIS_green"
+		DiffuseMap="models/_cube.png"
+		DiffuseMultiplier="g(150;255;150)"
+	/>
+	<Material
+		MeshParts="VIS_blue"
+		DiffuseMap="models/_cube.png"
+		DiffuseMultiplier="g(150;150;255)"
+	/>
+</CombineXMesh>

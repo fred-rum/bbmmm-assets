@@ -1,0 +1,17 @@
+<OverlayBrand
+	GenerateDust="true"
+	Texture="overlays/test__d_a.tga"
+	TextureSpecular="overlays/test__s_d_a.tga"
+	IsClampV="true"
+>
+	<Prebuild
+		DefaultWidth="4"
+		FlattenPart="2"
+		LandmarkColor="g(100; 70; 70; 0) x 1.5"
+		LandmarkPart="1"
+		Layer="-1"
+		MaskPlants="false"
+		IsClampV="true"
+	/>
+		HeightmapOffset="common__s_d_a.tga"
+</OverlayBrand>

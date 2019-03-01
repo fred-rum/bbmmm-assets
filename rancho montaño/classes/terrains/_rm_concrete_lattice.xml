@@ -1,0 +1,6 @@
+<MaterialType
+	IsExtrudable="false"
+	NoGrass="false"
+	Texture="tiles/_rm_concrete_lattice__d_a.png"
+	WheelTracks="0"
+/>

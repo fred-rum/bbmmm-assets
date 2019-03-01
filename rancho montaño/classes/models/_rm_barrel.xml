@@ -1,0 +1,11 @@
+<ModelBrand NoLandmark="true" DynamicModel="true" >
+	<PhysicsModel>
+		<Body
+			Collisions="Dynamic"
+			Mass="220"
+			Friction="1"
+			LinearDamping="0.5"
+			AngularDamping="0.3"
+		/>
+	</PhysicsModel>
+</ModelBrand>

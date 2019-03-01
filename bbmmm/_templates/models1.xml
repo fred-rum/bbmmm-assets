@@ -1,0 +1,7 @@
+<_templates>
+	<Material>
+		<Red1 DiffuseMultiplier="g(255;0;0) x 0.25" />
+		<Green1 DiffuseMultiplier="g(0;255;0) x 0.25" />
+		<Blue1 DiffuseMultiplier="g(0;0;255) x 0.25" />
+	</Material>
+</_templates>

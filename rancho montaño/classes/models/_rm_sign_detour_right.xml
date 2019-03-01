@@ -1,0 +1,14 @@
+<ModelBrand
+	BreakType="SmallTree"
+	NightLightingShadowsAllowCap="true"
+	NoLandmark="true"
+>
+	<PhysicsModel>
+		<Body
+			Mass="50"
+			CenterOfMassOffset="(0; 0.2; 0)"
+		>
+			<Constraint BreakOffThreshold="1000" Type="Fixed" />
+		</Body>
+	</PhysicsModel>
+</ModelBrand>

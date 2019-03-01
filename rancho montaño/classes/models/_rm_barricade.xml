@@ -1,0 +1,27 @@
+<ModelBrand NoLandmark="true">
+	<PhysicsModel>
+		<Body
+			ModelFrame="side1"
+			Collisions="Dynamic"
+			Mass="10"
+			AngularDamping="1.0"
+			LinearDamping="1.0"
+		>
+			<Body
+				ModelFrame="side2"
+				Collisions="Dynamic"
+				Mass="10"
+				AngularDamping="1.0"
+				LinearDamping="1.0"
+			>
+				<Constraint
+					Type="Hinge"
+					AxisLocal="(1;0;0)"
+					MinLimit="-30"
+					MaxLimit="0"
+				>
+				</Constraint>
+			</Body>
+		</Body>
+	</PhysicsModel>
+</ModelBrand>

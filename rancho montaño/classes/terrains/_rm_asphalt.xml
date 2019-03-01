@@ -1,0 +1,7 @@
+<MaterialType
+	IsExtrudable="false"
+	NoGrass="true"
+	Texture="tiles/_rm_asphalt__d_a.png"
+	WheelTracks="0"
+	IsGameAsphalt="true"
+/>

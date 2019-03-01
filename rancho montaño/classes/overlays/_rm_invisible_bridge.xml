@@ -1,0 +1,12 @@
+<OverlayBrand
+	GenerateDust="true"
+	Texture="overlays/_rm_invisible__d_a.png"
+>
+	<Prebuild
+		DefaultWidth="5"
+		MaskPlants="false"
+		LandmarkColor="(110; 100; 60)"
+		LandmarkPart="1"
+		Layer="-1"
+	/>
+</OverlayBrand>

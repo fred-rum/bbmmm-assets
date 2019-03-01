@@ -1,0 +1,5 @@
+<CombineXMesh Type="Model">
+	<Material
+		DiffuseMap="models/_ball.png"
+	/>
+</CombineXMesh>

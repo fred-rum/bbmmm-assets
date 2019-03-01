@@ -1,0 +1,7 @@
+<CombineXMesh Type="Overlay">
+        <Material
+		MeshParts="overlay"
+		DiffuseMap="overlays/_rm_stone_wall_overlay__d.png"
+		DiffuseMultiplier="g(255;255;255) x 0.75"
+        />
+</CombineXMesh>

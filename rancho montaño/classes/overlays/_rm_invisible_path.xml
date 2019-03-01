@@ -1,0 +1,12 @@
+<OverlayBrand
+	GenerateDust="true"
+	Texture="overlays/_rm_invisible__d_a.png"
+>
+	<Prebuild
+		DefaultWidth="4"
+		HeightmapOffset="hmoffset_dirt_path__s.tga"
+		LandmarkColor="(90; 97; 66)"
+		LandmarkPart="0.6"
+		Layer="-1"
+	/>
+</OverlayBrand>
