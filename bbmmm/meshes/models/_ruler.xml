@@ -1,20 +1,20 @@
 <CombineXMesh Type="Model">
 	<Material
-		DiffuseMap="models/_ruler.png"
+		DiffuseMap="models/_ruler__d.png"
 	/>
 	<Material
 		MeshParts="StickX_000,StickX_001,StickX_002,StickX_003,StickX_004"
-		DiffuseMap="models/_ruler.png"
+		DiffuseMap="models/_ruler__d.png"
 		DiffuseMultiplier="g(255;150;150)"
 	/>
 	<Material
 		MeshParts="StickY_000,StickY_001,StickY_002,StickY_003,StickY_004"
-		DiffuseMap="models/_ruler.png"
+		DiffuseMap="models/_ruler__d.png"
 		DiffuseMultiplier="g(150;150;255)"
 	/>
 	<Material
 		MeshParts="StickZ_000,StickZ_001,StickZ_002,StickZ_003,StickZ_004"
-		DiffuseMap="models/_ruler.png"
+		DiffuseMap="models/_ruler__d.png"
 		DiffuseMultiplier="g(150;255;150)"
 	/>
 </CombineXMesh>

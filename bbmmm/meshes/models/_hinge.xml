@@ -1,4 +1,4 @@
-<CombineXMesh Type="Model" File="_cubes2">
+<CombineXMesh Type="Model" File="_cubes2_deform">
 	<Material
 		MeshParts="VIS_red"
 		DiffuseMap="models/_cube.png"
